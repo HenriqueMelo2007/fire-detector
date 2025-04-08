@@ -11,7 +11,7 @@ Leitura dos sensores DHT22, MQ-2 e LDR para obtenção dos dados ATUAIS e uso do
 - Conectar ESP32 ao wi-fi
 - Iniciar código do servidor para receber dados não-rotulados, dados de leituras novas e realizar a classificação de incêndio usando o modelo de machine learning (FastAPI)
 - Preparar ESP32 para enviar requisições POST ao servidor (envio das leituras dos sensores)
-- Iniciar frontend (primeiramente estático). Temperatura, umidade, luminosidade, presença de fumaça ou gases inflamáveis.
+- Iniciar frontend (primeiramente estático). Temperatura, umidade, luminosidade, presença de fumaça ou gases inflamáveis e diagnóstico de incêndio.
 - Preparar servidor para fornecer dados ao frontend
 - Dinamizar frontend para consumir os dados novos vindos do backend com a predição
 
