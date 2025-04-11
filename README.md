@@ -21,3 +21,24 @@ FastAPI (ML Model)
   ↓     [JSON Response]
 Next.js (Dashboard)
 ```
+
+## Technologies
+
+### Embedded
+
+- ESP32
+  - MQ-2
+  - DHT22
+  - LDR
+- PlatformIO
+- Arduino Framework
+
+### Frontend
+
+- NextJS
+- TailwindCSS
+
+### Backend
+
+- FastAPI
+- Scikit-learn
