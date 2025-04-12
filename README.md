@@ -37,8 +37,10 @@ Next.js (Dashboard)
 
 - NextJS
 - TailwindCSS
+- Axios
 
 ### Backend
 
 - FastAPI
+- PostgreSQL
 - Scikit-learn
