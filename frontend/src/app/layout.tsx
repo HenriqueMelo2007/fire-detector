@@ -9,7 +9,7 @@ const roboto = Roboto({
 });
 
 export const metadata: Metadata = {
-  title: "Fire Detector - Thermophilic.",
+  title: "Fire Detector - Thermophilic",
   description: "Fire Detector system created by HenriqueMelo2007",
 };
 
