@@ -1,12 +1,11 @@
-import Btn from "@/components/btn";
+import NavBar from "@/components/navbar";
 import BarChart from "@/components/barchart";
 import HistoryChart from "@/components/historychart";
 
 export default function Home() {
   return (
-    <div className="w-screen h-screen flex justify-center items-center flex-col">
-      <Btn href="/signup" text="Sign up"></Btn>
-      <Btn href="/login" text="Login"></Btn>
+    <div className="flex flex-col">
+      <NavBar></NavBar>
     </div>
   );
 }
