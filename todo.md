@@ -5,3 +5,5 @@
 - ✅Definir design Frontend
 - Definir estrutura do banco de dados
 - Criar Frontend (estático)
+  - Definir componentes
+  - Finalizar landing page
