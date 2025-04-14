@@ -25,7 +25,7 @@ export default function Home() {
             and alerts users to the most recent fire detection event.
           </p>
         </div>
-        <div className="w-1/2 h-full flex flex-col items-center justify-center text-center">
+        <div className="w-1/2 h-full flex flex-col items-center justify-center text-center px-10">
           <BarChart></BarChart>
           <HistoryChart></HistoryChart>
         </div>
