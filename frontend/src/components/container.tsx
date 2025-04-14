@@ -4,7 +4,7 @@ interface bigboxprops {
   children: ReactNode
 }
 
-export default function BigBox({ children }: bigboxprops) {
+export default function Container({ children }: bigboxprops) {
   return (
     <div className="h-screen w-screen flex justify-center items-center">
       {children}
