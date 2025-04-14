@@ -1,7 +1,10 @@
+import Link from "next/link";
+
 interface btnprops {
-  text: string
+  text: string,
+  href: string,
 }
 
-export default function Btn({ text }: btnprops) {
-  return <button>{text}</button>
+export default function Btn({ text, href }: btnprops) {
+  return <Link href={href}>{text}</Link>
 }
