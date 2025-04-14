@@ -33,7 +33,7 @@ export default function BarChart() {
             </div>
             <div>
               <p className="mb-1 font-semibold">
-              Presence of Smoke or Flammable Gases
+                Presence of Smoke or Flammable Gases
               </p>
               <div className="w-full h-4 bg-gray-400 rounded">
                 <div
@@ -45,9 +45,7 @@ export default function BarChart() {
           </div>
         </div>
         <div className="w-[30%] bg-red-500 flex items-center justify-center rounded-lg">
-          <span className="text-xl font-bold">
-            FIRE DETECTED
-          </span>
+          <span className="text-xl font-bold">FIRE DETECTED</span>
         </div>
       </div>
     </div>

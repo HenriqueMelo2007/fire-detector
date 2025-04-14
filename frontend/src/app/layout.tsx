@@ -1,30 +1,26 @@
-import type { Metadata } from "next";
-import { Roboto } from "next/font/google";
-import "./globals.css";
+import type { Metadata } from 'next'
+import { Roboto } from 'next/font/google'
+import './globals.css'
 
 const roboto = Roboto({
   subsets: ['latin'],
-  weight: ['400', '700'], 
-  variable: '--font-roboto',
-});
+  weight: ['400', '700'],
+  variable: '--font-roboto'
+})
 
 export const metadata: Metadata = {
-  title: "Fire Detector - Thermophilic",
-  description: "Fire Detector system created by HenriqueMelo2007",
-};
+  title: 'Fire Detector - Thermophilic',
+  description: 'Fire Detector system created by HenriqueMelo2007'
+}
 
 export default function RootLayout({
-  children,
+  children
 }: Readonly<{
-  children: React.ReactNode;
+  children: React.ReactNode
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${roboto.variable} antialiased`}
-      >
-        {children}
-      </body>
+      <body className={`${roboto.variable} antialiased`}>{children}</body>
     </html>
-  );
+  )
 }

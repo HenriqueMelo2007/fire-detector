@@ -1,5 +1,3 @@
-export default function HistoryChart () {
-  return (
-    <div>HistoryChart</div>
-  )
+export default function HistoryChart() {
+  return <div>HistoryChart</div>
 }
