@@ -1,6 +1,6 @@
 export default function BarChart () {
   return (
-    <div></div>
+    <div>BarChart</div>
   )
 }
 
