@@ -1,6 +1,6 @@
 export default function HistoryChart() {
   return (
-    <div className="bg-gray-800 flex items-center justify-center mt-10 text-gray-200 w-full">
+    <div className="bg-gray-800 flex items-center justify-center mt-10 text-gray-200 w-full rounded-lg">
       <div className="bg-gray-800 shadow-md rounded-lg p-6 w-full">
         <h1 className="text-2xl font-bold mb-4">History of Presence of Smoke or Flammable Gases</h1>
         <svg
