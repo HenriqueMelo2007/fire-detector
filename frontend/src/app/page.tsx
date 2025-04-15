@@ -1,5 +1,4 @@
 import NavBar from '@/components/navbar'
-import Container from '@/components/container'
 import BarChart from '@/components/barchart'
 import HistoryChart from '@/components/historychart'
 
@@ -7,7 +6,7 @@ export default function Home() {
   return (
     <div className="flex flex-col">
       <NavBar></NavBar>
-      <Container>
+      <div className="min-h-screen w-screen flex justify-between items-center px-12 mb-5">
         <div className="w-1/2 h-full flex flex-col justify-center">
           <h2 className="font-bold text-4xl mb-4">Thermophilic</h2>
           <h2 className="font-bold text-4xl mb-8">Intelligent fire detector</h2>
@@ -29,7 +28,7 @@ export default function Home() {
           <BarChart></BarChart>
           <HistoryChart></HistoryChart>
         </div>
-      </Container>
+      </div>
     </div>
   )
 }
