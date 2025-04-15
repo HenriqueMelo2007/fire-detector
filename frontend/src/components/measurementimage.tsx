@@ -17,7 +17,7 @@ export default function MeasurementImage({
 }: measurementimageprops) {
   return (
     <div className="flex justify-center items-center">
-      <div className={`rounded-full border-4 ${borderColor} p-1`}>
+      <div className={`rounded-full border-1 ${borderColor} p-1.5`}>
         <Image
           src={src}
           alt={alt}
