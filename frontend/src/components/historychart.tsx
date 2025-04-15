@@ -19,5 +19,5 @@ export default function HistoryChart() {
         </svg>
       </div>
     </div>
-  );
+  )
 }

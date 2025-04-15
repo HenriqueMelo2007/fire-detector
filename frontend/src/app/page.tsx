@@ -72,8 +72,13 @@ export default function Home() {
           <div className="flex justify-center items-center">
             <GithubBtn></GithubBtn>
           </div>
-          <div className='flex justify-center items-center opacity-70'>
-            <Image src="/bottom-image.png" alt="Smoke effect image" width={800} height={242}></Image>
+          <div className="flex justify-center items-center opacity-70">
+            <Image
+              src="/bottom-image.png"
+              alt="Smoke effect image"
+              width={800}
+              height={242}
+            ></Image>
           </div>
         </div>
         <div className="w-1/2 h-full flex flex-col items-center justify-center text-center px-10">

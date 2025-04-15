@@ -49,5 +49,5 @@ export default function BarChart() {
         </div>
       </div>
     </div>
-  );
+  )
 }
