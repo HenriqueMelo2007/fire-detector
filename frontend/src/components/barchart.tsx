@@ -1,7 +1,7 @@
 export default function BarChart() {
   return (
     <div className="flex items-center justify-center text-gray-200 w-full">
-      <div className="w-full bg-gray-800 shadow-md rounded-lg p-6 flex">
+      <div className="w-full backdrop-blur-md bg-white/0 border border-white/30 shadow-md rounded-lg p-6 flex">
         <div className="w-[70%] pr-4">
           <div className="space-y-6">
             <div>
@@ -44,10 +44,10 @@ export default function BarChart() {
             </div>
           </div>
         </div>
-        <div className="w-[30%] bg-red-500 flex items-center justify-center rounded-lg">
+        <div className="w-[30%] backdrop-blur-md bg-red-500/60 border border-red-500/70 flex items-center justify-center rounded-lg">
           <span className="text-xl font-bold">FIRE DETECTED</span>
         </div>
       </div>
     </div>
-  )
+  );
 }

@@ -1,8 +1,10 @@
 export default function HistoryChart() {
   return (
-    <div className="bg-gray-800 flex items-center justify-center mt-10 text-gray-200 w-full rounded-lg">
-      <div className="bg-gray-800 shadow-md rounded-lg p-6 w-full">
-        <h1 className="text-2xl font-bold mb-4">History of Presence of Smoke or Flammable Gases</h1>
+    <div className="flex items-center justify-center mt-10 w-full rounded-lg">
+      <div className="w-full backdrop-blur-md bg-white/0 border border-white/30 shadow-md rounded-lg p-6">
+        <h1 className="text-2xl font-bold mb-4">
+          History of Presence of Smoke or Flammable Gases
+        </h1>
         <svg
           viewBox="0 0 300 150"
           className="w-full h-64"
@@ -17,5 +19,5 @@ export default function HistoryChart() {
         </svg>
       </div>
     </div>
-  )
+  );
 }
